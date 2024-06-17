@@ -1,0 +1,13 @@
+@-moz-document url(about:newtab), url(about:home){
+  .logo-and-wordmark > .logo{
+   background-image: url("logo.png") !important;
+  }
+  .logo-and-wordmark > .wordmark{
+    background: none !important;
+    width: unset !important;
+  }
+  .logo-and-wordmark > .wordmark::before{
+    content: "Tatzefox";
+    font-size: 40pt;
+  }
+}
